@@ -1,11 +1,13 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import TestComponent from "./TestComponent";
-import IntroScreen from "./components/intro-screen/IntroScreen";
+//import IntroScreen from "./components/intro-screen/IntroScreen";
+import LoginScreen from "./components/loginScreen/login";
+
 export default function App() {
   return (
     <View style={styles.container}>
-      <IntroScreen />
+      <LoginScreen />
     </View>
   );
 }
