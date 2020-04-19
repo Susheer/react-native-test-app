@@ -1,13 +1,13 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import TestComponent from "./TestComponent";
+//import TestComponent from "./TestComponent";
 //import IntroScreen from "./components/intro-screen/IntroScreen";
-import LoginScreen from "./components/loginScreen/login";
-
+//import LoginScreen from "./components/loginScreen/login";
+import ShopingCart from "./components/shoping-cart/ShoppingCart";
 export default function App() {
   return (
     <View style={styles.container}>
-      <LoginScreen />
+      <ShopingCart />
     </View>
   );
 }
@@ -15,7 +15,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    //backgroundColor: "red",
     alignItems: "center",
     justifyContent: "center",
   },
